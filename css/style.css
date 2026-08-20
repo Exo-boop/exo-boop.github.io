@@ -1,8 +1,20 @@
-body {
+:root {
     /* Background */
-    background-color: #110B11;
+    color-scheme: dark;
+}
+
+h1 {
+    padding: 0.4%;
+}
+header {
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    padding: auto;
+    border: 60%;
+    border-radius: auto;
 }
 
 p {
-    color: white;
+    color: #FFFF;
 }
