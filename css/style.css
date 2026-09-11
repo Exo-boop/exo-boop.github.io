@@ -5,18 +5,39 @@
 
 h1 {
     background-color: #8cada7;
-    margin: auto;
     padding: 0.4%;
 }
-header {
+.site-header {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
     background: #8cada7;
     color: white;
-    padding: 0%;
+    height: 42px;
+    padding: 0 3%;
 }
-nav a {
-    color: white;
-    margin: 3%;
-    margin-top: 32px;
+.site-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    padding-left: 30%;
+}
+
+.site-nav a {
+    display: flex;
+    padding: 0% 0%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: 200;
+}
+.site-nav a:hover, nav a:focus {
+    display: flex;
+    background-color: #a5d0a8;
+    color: #FFFF;
 }
 
 p {
@@ -24,5 +45,10 @@ p {
 }
 
 footer p {
+    color: grey;
     margin: 85%;
+    padding: 0%;
+    border-radius: 50%;
 }
+
+
