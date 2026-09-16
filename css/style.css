@@ -3,10 +3,11 @@
     color-scheme: dark;
 }
 
-h1 {
-    background-color: #8cada7;
-    padding: 0.4%;
+.logo a {
+    color: #FFFF;
+    text-decoration: none;
 }
+
 .site-header {
     display: flex;
     margin-left: auto;
@@ -16,9 +17,10 @@ h1 {
     height: 42px;
     padding: 0 3%;
 }
+
 .site-nav ul {
     display: flex;
-    gap: 30px;
+    gap: 45%;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -33,15 +35,31 @@ h1 {
     text-decoration: none;
     color: #FFFF;
     font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.site-nav a:hover, nav a:focus {
+
+/*.site-nav a:hover, nav a:focus {
     display: flex;
     background-color: #a5d0a8;
     color: #FFFF;
 }
+    Maybe I'll keep this? IDK.
+    */
+
+img.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    width: 20%;
+    border-radius: 60%;
+    max-width: 100%;
+
+}
 
 p {
     color: #FFFF;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer p {
