@@ -38,22 +38,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.site-nav a:hover { /* To help people navigate */
+.site-nav a:hover { /* To help people see which page they're on already */
     text-decoration: underline;
 }
-
-/*.site-nav a:hover, nav a:focus {
-    display: flex;
-    background-color: #a5d0a8;
-    color: #FFFF;
-}
-    Maybe I'll keep this? IDK.
-    */
 
 img.pfp { /* Image settings */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     padding: 5%;
     width: 10%;
     height: auto;
@@ -62,18 +55,56 @@ img.pfp { /* Image settings */
 
 }
 
-p {
+p { /* Makes text readable due to dark mode settings*/
     color: #FFFF;
     font-family: 'Times New Roman', Times, serif;
 }
 
 
+.CTA-Button-Section { /* Controls Button Placement */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+}
+.CTA { /* Controls Link Button Settings */
+    background-color: #A5D0A8; /* For folks with unsupported gradients */
+    background-image: linear-gradient(to bottom, #8cada7, #A5D0A8);
+    display: inline-block;
+    width: 13.9%;
+    height: auto;
+    padding: 2% 4%;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border: 1px solid #FFFF;
+}
 
-footer p {
-    color: grey;
-    margin: 85%;
-    padding: 0%;
-    border-radius: 50%;
+.CTA:hover { /* Responsive CTA Buttons */
+    background: #FFFF;
+    border: 1px solid #A5D0A8;
+}
+
+.CTA-Primary { /* Text for CTA */
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.CTA-Primary:hover { /* Responsive CTA Text  */
+    color: #A5D0A8
 }
 
 
+.footer {
+    align-items: center;
+}
+
+footer p { /* Disclosing infomration text */
+    color: grey;
+    font-size: medium;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 70%;
+}
