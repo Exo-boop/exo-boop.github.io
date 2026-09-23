@@ -48,9 +48,8 @@ img.pfp { /* Image settings */
     margin-right: auto;
     justify-content: center;
     padding: 5%;
-    width: 10%;
+    width: 30%;
     height: auto;
-    border-radius: 60%;
     max-width: 100%;
 
 }
@@ -97,14 +96,20 @@ p { /* Makes text readable due to dark mode settings*/
 }
 
 
-.footer {
-    align-items: center;
+.footer { /* Disclosing information placement */
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    bottom: 0%;
+    left: 0%;
+
+
 }
 
 footer p { /* Disclosing infomration text */
+
     color: grey;
     font-size: medium;
     line-height: 15px;
     text-align: center;
-    margin-top: 70%;
 }
