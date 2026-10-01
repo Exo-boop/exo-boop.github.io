@@ -1,3 +1,5 @@
+/* Global CSS (Example: Nav */
+
 :root {
     /* Background */
     color-scheme: dark;
@@ -42,24 +44,6 @@
     text-decoration: underline;
 }
 
-img.pfp { /* Image settings */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    padding: 5%;
-    width: 30%;
-    height: auto;
-    max-width: 100%;
-
-}
-
-p { /* Makes text readable due to dark mode settings*/
-    color: #FFFF;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
 .CTA-Button-Section { /* Controls Button Placement */
     display: flex;
     flex-direction: row;
@@ -96,6 +80,7 @@ p { /* Makes text readable due to dark mode settings*/
 }
 
 
+
 .footer { /* Disclosing information placement */
     text-align: center;
     position: fixed;
@@ -112,4 +97,64 @@ footer p { /* Disclosing infomration text */
     font-size: medium;
     line-height: 15px;
     text-align: center;
+}
+
+
+
+/* Home.HTML Specific CSS. */
+
+.pfp { /* Image settings */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 5%;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+
+}
+
+p { /* Makes text readable due to dark mode settings*/
+    color: #FFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+/* Projects.HTML Specific CSS */
+
+.project-list {
+    display: absolute;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    background-color: #8cada7;
+    padding: 10%;
+    border-radius: 18px;
+}
+
+.project-list-header {
+    display: block;
+    font-size: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.godot-specific-image {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.project-text {
+    display: block;
+    object-fit: contain;
+    font-family: 'Times New Roman', Times, serif;
+
 }
