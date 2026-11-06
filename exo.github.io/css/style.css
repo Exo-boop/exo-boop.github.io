@@ -1,0 +1,185 @@
+/* Global CSS (Example: Nav) */
+
+:root {
+    /* Background */
+    color-scheme: dark;
+}
+
+p { /* Makes text readable due to dark mode settings*/
+    color: #FFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo a { /* Logo settings */
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.site-header { /* Controls settings of nav/hero, the header */
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    background: #8cada7;
+    color: white;
+    height: 42px;
+    padding: 0 3%;
+}
+
+.site-nav ul { /* Controls how links are set */
+    display: flex;
+    gap: 45%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    padding-left: 30%;
+}
+
+.site-nav a { /* Controls actual link text */
+    display: flex;
+    padding: 0% 0%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-nav a:hover { /* To help see which page you're on already */
+    text-decoration: underline;
+}
+
+
+ /* CTA */
+.CTA-Button-Section { /* Controls Button Placement */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+}
+.CTA { /* Controls Link Button Settings */
+    background-color: #A5D0A8; /* For folks with unsupported gradients */
+    background-image: linear-gradient(to bottom, #8cada7, #A5D0A8);
+    display: inline-block;
+    width: 13.9%;
+    height: auto;
+    padding: 2% 4%;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s ease;
+    border: 1px solid #FFFF;
+}
+
+.CTA:hover { /* Responsive CTA Buttons */
+    background: #FFFF;
+    border: 1px solid #A5D0A8;
+}
+
+.CTA-Primary { /* Text for CTA */
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.CTA-Primary:hover { /* Responsive CTA Text  */
+    color: #A5D0A8
+}
+
+
+
+.footer { /* Disclosing information placement */
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    bottom: 0%;
+    left: 0%;
+
+
+}
+
+footer p { /* Disclosing infomration text */
+
+    color: grey;
+    font-size: medium;
+    line-height: 15px;
+    text-align: center;
+}
+
+
+
+/* Home.HTML Specific CSS. */
+
+.pfp { /* Image settings */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 5%;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+
+}
+
+
+
+
+
+
+
+
+/* Projects.HTML Specific CSS */
+
+
+/* Main project settings */
+.project-list {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    background-color: #8cada7;
+    padding: 2%;
+    border-radius: 18px;
+}
+
+
+/* Main project h2 settings */
+.project-list-header {
+    display: block;
+    font-size: 110%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Main project image settings */
+.godot-specific-image {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+/* Main project text settings */
+.project-text {
+    display: block;
+    object-fit: contain;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* CTA Button Project Settings */
+.CTA-Button-Section-Projects { /* Controls Button Placement */
+    display: flex;
+    gap: 13%;
+    padding: 8%;
+
+}
+
+
+
+
+/*Socials.HTML Specific CSS */
