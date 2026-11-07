@@ -180,6 +180,43 @@ footer p { /* Disclosing infomration text */
 }
 
 
+/* Selected Projects specific HTML */
 
+
+
+
+/* Section return CSS */
+.return-section {
+    display: flex;
+    gap: 35%;
+}
+
+
+/* Return to Gallery CSS */
+.return-gallery {
+    display: flex;
+    color: #8cada7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 2%;
+    font-size: large;
+
+}
+
+/* Return to Gallery hover */
+.return-gallery:hover {
+    color: #63f0dd;
+}
+
+/* Header CSS for Projects*/
+.header-css {
+    color: #8cada7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    /* padding: 12px 300px; */
+    
+
+
+}
 
 /*Socials.HTML Specific CSS */
