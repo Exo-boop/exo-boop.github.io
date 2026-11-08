@@ -181,7 +181,7 @@ footer p { /* Disclosing infomration text */
 }
 
 
-/* Selected Projects specific CSS */
+/* Selected Projects specific HTML */
 
 
 
@@ -201,6 +201,7 @@ footer p { /* Disclosing infomration text */
     font-weight: 600;
     margin-top: 2%;
     font-size: large;
+    margin-right: 1%;
 
 }
 
@@ -209,14 +210,29 @@ footer p { /* Disclosing infomration text */
     color: #63f0dd;
 }
 
-/* Header CSS for Projects*/
+/* Header CSS for Projects, "Godot Project" */
 .header-css {
+    display: flex;
     color: #8cada7;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2%;
-    /* padding: 12px 300px; */
+    text-align: center;
+
     
 
+
+}
+
+/* Godot logo settings */
+.godot-logo-image {
+    display: flex;
+    margin-left: 30%;
+    margin-right: auto;
+    justify-content: center;
+    padding: 4%;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
 
 }
 
